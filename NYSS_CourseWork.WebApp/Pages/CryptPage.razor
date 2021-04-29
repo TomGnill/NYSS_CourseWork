@@ -3,14 +3,14 @@
 @using NYSS_CourseWork.WebApp.Data
 
 <h1>CryptApp</h1>
-
+<p>На данный момент язык работы:@Language.ToString() .Если хотите сменить язык <button class="btn btn-primary" @onclick="ChangeAlphabet">Нажмите сюда</button></p>
 @if (InputChoise == BranchingEnums.InputChoise.none)
-{
+ {
     <p>
         Как вы хотите задать данные: <button class="btn btn-primary" @onclick="ChangeInputTxt">Из текстового файла</button>
         <button class="btn btn-primary" @onclick="ChangeInputKeyboard">С клавиатуры</button>
     </p>
-}
+ }
 @if (InputChoise == BranchingEnums.InputChoise.fromKeyboard)
 {
     <p>
@@ -72,6 +72,8 @@
     private BranchingEnums.InputChoise InputChoise { get; set; } = BranchingEnums.InputChoise.none;
     private BranchingEnums.OutputVar OutputChoise { get; set; } = BranchingEnums.OutputVar.none;
     private BranchingEnums.CryptFunc DecryptOrEncrypt { get; set; } = BranchingEnums.CryptFunc.none;
+    private BranchingEnums.CryptLanguage Language { get; set; } = BranchingEnums.CryptLanguage.Russian;
+    private Alphabet alphabet = new RussianAlphabet();
     private string FilePath { get; set; }
     private string Text { get; set; }
     private string Result { get; set; }
@@ -114,18 +116,32 @@
     {
         OutputChoise = BranchingEnums.OutputVar.onMonitor;
     }
+    private void ChangeAlphabet()
+    {
+        if (Language == BranchingEnums.CryptLanguage.Russian)
+        {
+            Language = BranchingEnums.CryptLanguage.English;
+            alphabet = new EnglishAlphabet();
+        }
+        else
+        {
+            Language = BranchingEnums.CryptLanguage.Russian;
+            alphabet = new RussianAlphabet();
+        }
+    }
 
     private async Task Run()
     {
         ScramblerMaster newMaster = new ScramblerMaster();
 
+
         if (DecryptOrEncrypt == BranchingEnums.CryptFunc.decrypt)
         {
-            Result = await newMaster.GetDecryption(Key, Text, new RussianAlphabet());
+            Result = await newMaster.GetDecryption(Key, Text, alphabet);
         }
         if (DecryptOrEncrypt == BranchingEnums.CryptFunc.encrypt)
         {
-            Result = await newMaster.GetEncryption(Key, Text, new RussianAlphabet());
+            Result = await newMaster.GetEncryption(Key, Text, alphabet);
         }
     }
 }

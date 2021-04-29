@@ -28,7 +28,6 @@ namespace NYSS_CourseWork.WebApp
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddSingleton<WeatherForecastService>();
             services.AddSingleton<BranchingEnums>();
             services.AddSingleton<FileManagerController>();
             services.AddSingleton<ScramblerMaster>();

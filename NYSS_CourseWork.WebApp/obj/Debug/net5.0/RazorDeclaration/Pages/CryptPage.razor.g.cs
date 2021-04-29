@@ -110,6 +110,8 @@ using NYSS_CourseWork.WebApp.Data;
     private BranchingEnums.InputChoise InputChoise { get; set; } = BranchingEnums.InputChoise.none;
     private BranchingEnums.OutputVar OutputChoise { get; set; } = BranchingEnums.OutputVar.none;
     private BranchingEnums.CryptFunc DecryptOrEncrypt { get; set; } = BranchingEnums.CryptFunc.none;
+    private BranchingEnums.CryptLanguage Language { get; set; } = BranchingEnums.CryptLanguage.Russian;
+    private Alphabet alphabet = new RussianAlphabet();
     private string FilePath { get; set; }
     private string Text { get; set; }
     private string Result { get; set; }
@@ -152,18 +154,32 @@ using NYSS_CourseWork.WebApp.Data;
     {
         OutputChoise = BranchingEnums.OutputVar.onMonitor;
     }
+    private void ChangeAlphabet()
+    {
+        if (Language == BranchingEnums.CryptLanguage.Russian)
+        {
+            Language = BranchingEnums.CryptLanguage.English;
+            alphabet = new EnglishAlphabet();
+        }
+        else
+        {
+            Language = BranchingEnums.CryptLanguage.Russian;
+            alphabet = new RussianAlphabet();
+        }
+    }
 
     private async Task Run()
     {
         ScramblerMaster newMaster = new ScramblerMaster();
 
+
         if (DecryptOrEncrypt == BranchingEnums.CryptFunc.decrypt)
         {
-            Result = await newMaster.GetDecryption(Key, Text, new RussianAlphabet());
+            Result = await newMaster.GetDecryption(Key, Text, alphabet);
         }
         if (DecryptOrEncrypt == BranchingEnums.CryptFunc.encrypt)
         {
-            Result = await newMaster.GetEncryption(Key, Text, new RussianAlphabet());
+            Result = await newMaster.GetEncryption(Key, Text, alphabet);
         }
     }
 

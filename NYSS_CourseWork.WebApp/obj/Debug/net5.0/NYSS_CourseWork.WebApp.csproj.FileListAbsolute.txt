@@ -19,9 +19,7 @@ C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourseWork.WebApp\obj\Debug\
 C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourseWork.WebApp\obj\Debug\net5.0\NYSS_CourseWork.WebApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourseWork.WebApp\obj\Debug\net5.0\NYSS_CourseWork.WebApp.RazorComponent.input.cache
 C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourseWork.WebApp\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
-C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourseWork.WebApp\obj\Debug\net5.0\RazorDeclaration\Pages\Counter.razor.g.cs
 C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourseWork.WebApp\obj\Debug\net5.0\RazorDeclaration\Pages\CryptPage.razor.g.cs
-C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourseWork.WebApp\obj\Debug\net5.0\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourseWork.WebApp\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourseWork.WebApp\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
 C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourseWork.WebApp\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
@@ -33,9 +31,7 @@ C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourseWork.WebApp\obj\Debug\
 C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourseWork.WebApp\obj\Debug\net5.0\NYSS_CourseWork.WebApp.TagHelpers.output.cache
 C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourseWork.WebApp\obj\Debug\net5.0\NYSS_CourseWork.WebApp.RazorCoreGenerate.cache
 C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourseWork.WebApp\obj\Debug\net5.0\Razor\App.razor.g.cs
-C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourseWork.WebApp\obj\Debug\net5.0\Razor\Pages\Counter.razor.g.cs
 C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourseWork.WebApp\obj\Debug\net5.0\Razor\Pages\CryptPage.razor.g.cs
-C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourseWork.WebApp\obj\Debug\net5.0\Razor\Pages\FetchData.razor.g.cs
 C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourseWork.WebApp\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
 C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourseWork.WebApp\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
 C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourseWork.WebApp\obj\Debug\net5.0\Razor\_Imports.razor.g.cs

@@ -22,5 +22,10 @@
             encrypt,
             decrypt
         }
+        public enum CryptLanguage
+        {
+           Russian,
+           English
+        }
     }
 }

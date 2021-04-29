@@ -90,7 +90,7 @@ using NYSS_CourseWork.WebApp.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourseWork.WebApp\Shared\NavMenu.razor"
+#line 23 "C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourseWork.WebApp\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 
