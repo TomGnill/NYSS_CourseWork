@@ -1,17 +1,11 @@
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using NYSS_CourceWork.Server.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using NYSS_CourseWork.Server.Data;
 
-namespace NYSS_CourceWork.Server
+namespace NYSS_CourseWork.Server
 {
     public class Startup
     {
@@ -28,7 +22,9 @@ namespace NYSS_CourceWork.Server
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddSingleton<WeatherForecastService>();
+            services.AddSingleton<BranchingEnums>();
+            services.AddSingleton<FileManagerController>(); 
+            services.AddSingleton<ScramblerMaster>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

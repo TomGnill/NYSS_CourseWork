@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NYSS_CourceWork.Client", "NYSS_CourceWork.Server\NYSS_CourceWork.Client.csproj", "{52EE3ADB-0D99-46D6-94D2-A7241D6C27CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NYSS_CourseWork.Scrambler", "NYSS_CourceWork.Scrambler\NYSS_CourseWork.Scrambler.csproj", "{74446540-D76B-4207-A72A-FBD73CEA5E48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NYSS_CourceWork.Scrambler", "NYSS_CourceWork.Scrambler\NYSS_CourceWork.Scrambler.csproj", "{74446540-D76B-4207-A72A-FBD73CEA5E48}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NYSS_CourseWork.WebApp", "NYSS_CourseWork.WebApp\NYSS_CourseWork.WebApp.csproj", "{963265C8-E8EC-4325-9302-CC71C963FBDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NYSS_CourseWork.Sample", "NYSS_CourseWork.Sample\NYSS_CourseWork.Sample.csproj", "{6EEFED19-45FD-427D-A7DA-3B51178A48DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NYSS_CourseWork.Tests", "NYSS_CourseWork.Tests\NYSS_CourseWork.Tests.csproj", "{99D3E299-BA12-469B-945B-6935B441C7AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{52EE3ADB-0D99-46D6-94D2-A7241D6C27CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{52EE3ADB-0D99-46D6-94D2-A7241D6C27CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{52EE3ADB-0D99-46D6-94D2-A7241D6C27CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{52EE3ADB-0D99-46D6-94D2-A7241D6C27CF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{74446540-D76B-4207-A72A-FBD73CEA5E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{74446540-D76B-4207-A72A-FBD73CEA5E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74446540-D76B-4207-A72A-FBD73CEA5E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74446540-D76B-4207-A72A-FBD73CEA5E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{963265C8-E8EC-4325-9302-CC71C963FBDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{963265C8-E8EC-4325-9302-CC71C963FBDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{963265C8-E8EC-4325-9302-CC71C963FBDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{963265C8-E8EC-4325-9302-CC71C963FBDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EEFED19-45FD-427D-A7DA-3B51178A48DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EEFED19-45FD-427D-A7DA-3B51178A48DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EEFED19-45FD-427D-A7DA-3B51178A48DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EEFED19-45FD-427D-A7DA-3B51178A48DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D3E299-BA12-469B-945B-6935B441C7AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D3E299-BA12-469B-945B-6935B441C7AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D3E299-BA12-469B-945B-6935B441C7AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D3E299-BA12-469B-945B-6935B441C7AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

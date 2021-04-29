@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "NYSS_CourseWork.Scrambler/1.0.0": {
+        "runtime": {
+          "NYSS_CourseWork.Scrambler.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NYSS_CourseWork.Scrambler/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

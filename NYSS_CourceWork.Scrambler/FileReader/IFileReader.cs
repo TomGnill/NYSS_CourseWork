@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace NYSS_CourceWork.Scrambler.FileReader
+namespace NYSS_CourseWork.Scrambler.FileReader
 {
     public interface IFileReader
     {

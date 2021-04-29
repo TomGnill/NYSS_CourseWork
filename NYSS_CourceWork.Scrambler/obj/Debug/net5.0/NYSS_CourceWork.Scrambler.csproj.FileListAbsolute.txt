@@ -1,0 +1,12 @@
+C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourceWork.Scrambler\bin\Debug\net5.0\NYSS_CourceWork.Scrambler.deps.json
+C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourceWork.Scrambler\bin\Debug\net5.0\NYSS_CourceWork.Scrambler.dll
+C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourceWork.Scrambler\bin\Debug\net5.0\ref\NYSS_CourceWork.Scrambler.dll
+C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourceWork.Scrambler\bin\Debug\net5.0\NYSS_CourceWork.Scrambler.pdb
+C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourceWork.Scrambler\obj\Debug\net5.0\NYSS_CourceWork.Scrambler.csprojAssemblyReference.cache
+C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourceWork.Scrambler\obj\Debug\net5.0\NYSS_CourceWork.Scrambler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourceWork.Scrambler\obj\Debug\net5.0\NYSS_CourceWork.Scrambler.AssemblyInfoInputs.cache
+C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourceWork.Scrambler\obj\Debug\net5.0\NYSS_CourceWork.Scrambler.AssemblyInfo.cs
+C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourceWork.Scrambler\obj\Debug\net5.0\NYSS_CourceWork.Scrambler.csproj.CoreCompileInputs.cache
+C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourceWork.Scrambler\obj\Debug\net5.0\NYSS_CourceWork.Scrambler.dll
+C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourceWork.Scrambler\obj\Debug\net5.0\ref\NYSS_CourceWork.Scrambler.dll
+C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourceWork.Scrambler\obj\Debug\net5.0\NYSS_CourceWork.Scrambler.pdb

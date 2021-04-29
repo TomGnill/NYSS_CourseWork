@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace NYSS_CourceWork.Scrambler
+namespace NYSS_CourseWork.Scrambler
 {
    public abstract class Alphabet
    {

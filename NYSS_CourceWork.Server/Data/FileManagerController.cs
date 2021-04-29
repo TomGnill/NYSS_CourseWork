@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using NYSS_CourceWork.Scrambler.FileReader;
+﻿using System.Threading.Tasks;
+using NYSS_CourseWork.Scrambler.FileReader;
 
-namespace NYSS_CourceWork.Client.Data
+namespace NYSS_CourseWork.Server.Data
 {
     public class FileManagerController
     {

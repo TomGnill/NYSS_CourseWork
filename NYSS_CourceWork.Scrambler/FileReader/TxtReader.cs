@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
+﻿using System.IO;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace NYSS_CourceWork.Scrambler.FileReader
+namespace NYSS_CourseWork.Scrambler.FileReader
 {
     public class TxtReader : IFileReader
     {
@@ -19,7 +15,7 @@ namespace NYSS_CourceWork.Scrambler.FileReader
         public string Read()
         {
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-            return File.ReadAllText(Path, Encoding.GetEncoding(1251));
+            return File.ReadAllText(Path, Encoding.UTF8);
         }
 
         public void Write(string text)

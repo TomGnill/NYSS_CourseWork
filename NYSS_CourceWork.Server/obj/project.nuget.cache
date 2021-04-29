@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CwUU6g3n2Hqe4XvawbA6RSZWkkI/wZivMImntJtQC9puTTgzSMHiLVi5b1Zw+m3Mm6QkU7sbbzDwO4YnCyuDXQ==",
+  "dgSpecHash": "g8/P5pbg+bb200E7KGRd6dioqy6vO1g3YoBDCsZlAecOXzdlqRd5R/Nd3gF08iTgX8cuw546YnE+AvkBILCQiA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andri\\Documents\\repos\\NYSS_CourseWork\\NYSS_CourceWork.Server\\NYSS_CourceWork.Client.csproj",
+  "projectFilePath": "C:\\Users\\andri\\Documents\\repos\\NYSS_CourseWork\\NYSS_CourceWork.Server\\NYSS_CourseWork.Server.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

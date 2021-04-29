@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NYSS_CourceWork.Scrambler\NYSS_CourceWork.Scrambler.csproj" />
+    <ProjectReference Include="..\NYSS_CourceWork.Scrambler\NYSS_CourseWork.Scrambler.csproj" />
   </ItemGroup>
 
 </Project>

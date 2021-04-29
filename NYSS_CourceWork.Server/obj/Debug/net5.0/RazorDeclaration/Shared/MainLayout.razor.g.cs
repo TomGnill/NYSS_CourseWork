@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace NYSS_CourceWork.Client.Shared
+namespace NYSS_CourseWork.Server.Shared
 {
     #line hidden
     using System;
@@ -13,71 +13,64 @@ namespace NYSS_CourceWork.Client.Shared
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\andri\source\repos\NYSS_CourseWork.Server\NYSS_CourceWork.Server\_Imports.razor"
+#line 1 "C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourceWork.Server\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\andri\source\repos\NYSS_CourseWork.Server\NYSS_CourceWork.Server\_Imports.razor"
+#line 2 "C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourceWork.Server\_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\andri\source\repos\NYSS_CourseWork.Server\NYSS_CourceWork.Server\_Imports.razor"
+#line 3 "C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourceWork.Server\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\andri\source\repos\NYSS_CourseWork.Server\NYSS_CourceWork.Server\_Imports.razor"
+#line 4 "C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourceWork.Server\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\andri\source\repos\NYSS_CourseWork.Server\NYSS_CourceWork.Server\_Imports.razor"
+#line 5 "C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourceWork.Server\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\andri\source\repos\NYSS_CourseWork.Server\NYSS_CourceWork.Server\_Imports.razor"
+#line 6 "C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourceWork.Server\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\andri\source\repos\NYSS_CourseWork.Server\NYSS_CourceWork.Server\_Imports.razor"
+#line 7 "C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourceWork.Server\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\andri\source\repos\NYSS_CourseWork.Server\NYSS_CourceWork.Server\_Imports.razor"
+#line 8 "C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourceWork.Server\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\andri\source\repos\NYSS_CourseWork.Server\NYSS_CourceWork.Server\_Imports.razor"
-using NYSS_CourceWork.Server;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 10 "C:\Users\andri\source\repos\NYSS_CourseWork.Server\NYSS_CourceWork.Server\_Imports.razor"
-using NYSS_CourceWork.Server.Shared;
+#line 9 "C:\Users\andri\Documents\repos\NYSS_CourseWork\NYSS_CourceWork.Server\_Imports.razor"
+using NYSS_CourseWork.Server.Shared;
 
 #line default
 #line hidden

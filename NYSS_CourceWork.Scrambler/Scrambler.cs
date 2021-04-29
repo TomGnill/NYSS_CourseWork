@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NYSS_CourceWork.Scrambler
+namespace NYSS_CourseWork.Scrambler
 {
     public class Scrambler
     {
@@ -25,14 +24,14 @@ namespace NYSS_CourceWork.Scrambler
         public string Execute(string text, bool encryption)
         {
             StringBuilder output = new StringBuilder(text.Length);
-            Key = Key.ToUpperInvariant();
+            Key = Key.ToUpper();
 
             int flag = 0;
             foreach (var letter in text)
             {
                 int letterIndex = Array.IndexOf(Alphabet.alphabet, char.ToUpper(letter));
 
-                if (letterIndex >= 0)
+                if (letterIndex > -1)
                 {
                     if (encryption)
                     {
@@ -43,7 +42,8 @@ namespace NYSS_CourceWork.Scrambler
                         letterIndex -= Array.IndexOf(Alphabet.alphabet, Key[flag]);
                     }
 
-                    if ((letterIndex %= Alphabet.alphabet.Length) < 0)
+                    letterIndex %= Alphabet.alphabet.Length;
+                    if (letterIndex < 0)
                     {
                         letterIndex += Alphabet.alphabet.Length;
                     }
@@ -62,8 +62,6 @@ namespace NYSS_CourceWork.Scrambler
                 {
                     output.Append(letter);
                 }
-
-
             }
             return output.ToString();
         }

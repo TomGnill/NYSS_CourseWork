@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "NYSS_CourceWork.Server": {
+    "NYSS_CourseWork.Server": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,
